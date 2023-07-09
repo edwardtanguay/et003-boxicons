@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	padding: 2rem;
+	line-height: 1.3rem;
+}
+
+h1 {
+	margin-bottom: 1rem;
+}
+
+code {
+	color: brown;
+}
+
+h2 {
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.user {
+	color: red;
+}
+
+.user2 {
+	color: navy;
+	transform: rotate(90deg);
+	font-size: 5rem;
+	text-shadow: 3px 3px 15px yellow;
+}
+
+.user3::after {
+	font-family: 'boxicons';
+	content: "\ec63";
+}
+
+.user4::after {
+	font-family: 'boxicons';
+	content: "\eb3e";
+}
+
+a.icon {
+	text-decoration:none;
+	color: blue;
+	text-decoration: none;
+}
